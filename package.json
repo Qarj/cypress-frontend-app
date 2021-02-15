@@ -1,25 +1,28 @@
 {
-  "name": "cypress-frontend-app",
-  "version": "0.1.0",
-  "description": "A frontend test app to use with cypress-server",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Qarj/cypress-frontend-app.git"
-  },
-  "keywords": [
-    "cypress"
-  ],
-  "author": "Qarj",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Qarj/cypress-frontend-app/issues"
-  },
-  "homepage": "https://github.com/Qarj/cypress-frontend-app#readme",
-  "devDependencies": {
-    "cypress": "^6.4.0"
-  }
+    "name": "cypress-frontend-app",
+    "version": "0.1.0",
+    "description": "A frontend test app to use with cypress-server",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "cypress:open:dev": "cypress open --config-file cypress/cypress-dev.json",
+        "cypress:open:preprod": "cypress open --config-file cypress/cypress-preprod.json",
+        "cypress:open:prod": "cypress open --config-file cypress/cypress-prod.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Qarj/cypress-frontend-app.git"
+    },
+    "keywords": [
+        "cypress"
+    ],
+    "author": "Qarj",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Qarj/cypress-frontend-app/issues"
+    },
+    "homepage": "https://github.com/Qarj/cypress-frontend-app#readme",
+    "devDependencies": {
+        "cypress": "^6.4.0"
+    }
 }
