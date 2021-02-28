@@ -6,5 +6,9 @@ describe('Frontend Canary', () => {
         expect(true).to.equal(true);
         cy.log(`German url is ${util.germanBaseUrl()}`);
         cy.customCommand();
+        cy.fixture('myFixture.json').as('special');
+        cy.get('@special').then((special) => {
+            cy.log(special.body);
+        });
     });
 });
