@@ -23,3 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('customCommand', () => {
+    cy.log('Custom command has been invoked');
+    expect(true).to.equal(true);
+    cy.log('Custom command is now done');
+});

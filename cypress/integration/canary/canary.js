@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
-describe('page', () => {
-    it('works', () => {
-        cy.visit('https://example.cypress.io');
+describe('Frontend Canary', () => {
+    it('checks the frontend canary page', () => {
+        cy.log(`Running on brand ${Cypress.env('brandHost')}`);
+        expect(true).to.equal(true);
     });
 });
