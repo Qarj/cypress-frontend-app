@@ -7,7 +7,8 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "cypress:open:dev": "cypress open --config-file cypress/cypress-dev.json",
         "cypress:open:preprod": "cypress open --config-file cypress/cypress-preprod.json",
-        "cypress:open:prod": "cypress open --config-file cypress/cypress-prod.json"
+        "cypress:open:prod": "cypress open --config-file cypress/cypress-prod.json",
+        "deploy:cypress": "node deployCypress.js"
     },
     "repository": {
         "type": "git",
@@ -24,5 +25,8 @@
     "homepage": "https://github.com/Qarj/cypress-frontend-app#readme",
     "devDependencies": {
         "cypress": "^6.4.0"
+    },
+    "dependencies": {
+        "cypress-service-client": "0.0.1"
     }
 }
