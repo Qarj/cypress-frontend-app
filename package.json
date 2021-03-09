@@ -8,7 +8,8 @@
         "cypress:open:dev": "cypress open --config-file cypress/cypress-dev.json",
         "cypress:open:preprod": "cypress open --config-file cypress/cypress-preprod.json",
         "cypress:open:prod": "cypress open --config-file cypress/cypress-prod.json",
-        "deploy:cypress": "node deployCypress.js"
+        "deploy:cypress": "node deployCypress.js",
+        "start-seq:cypress": "node startSequential.js"
     },
     "repository": {
         "type": "git",
@@ -27,6 +28,6 @@
         "cypress": "^6.4.0"
     },
     "dependencies": {
-        "cypress-service-client": "0.0.1"
+        "cypress-service-client": "0.0.2"
     }
 }
