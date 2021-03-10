@@ -10,7 +10,8 @@
         "cypress:open:prod": "cypress open --config-file cypress/cypress-prod.json",
         "deploy:cypress": "node deployCypress.js",
         "start-seq:cypress": "node startSequential.js",
-        "run-seq:cypress": "node runSequential.js"
+        "run-seq:cypress": "node runSequential.js",
+        "start-parallel:cypress": "node startParallel.js"
     },
     "repository": {
         "type": "git",
@@ -29,6 +30,6 @@
         "cypress": "^6.4.0"
     },
     "dependencies": {
-        "cypress-service-client": "0.0.3"
+        "cypress-service-client": "0.0.4"
     }
 }
