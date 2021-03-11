@@ -12,7 +12,8 @@
         "start-seq:cypress": "node startSequential.js",
         "run-seq:cypress": "node runSequential.js",
         "start-parallel:cypress": "node startParallel.js",
-        "run-parallel:cypress": "node runParallel.js"
+        "run-parallel:cypress": "node runParallel.js",
+        "deploy:run": "node deployCypress.js && node runParallel.js"
     },
     "repository": {
         "type": "git",

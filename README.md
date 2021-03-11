@@ -1,2 +1,5 @@
 # cypress-frontend-app
-Frontend app to use with cypress-server
+
+Demo frontend app to use with cypress-service. See: https://github.com/Qarj/cypress-service
+
+Contains sample tests only.
