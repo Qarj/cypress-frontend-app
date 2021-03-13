@@ -32,6 +32,6 @@
         "cypress": "^6.4.0"
     },
     "dependencies": {
-        "cypress-service-client": "0.0.5"
+        "cypress-service-client": "0.0.6"
     }
 }
