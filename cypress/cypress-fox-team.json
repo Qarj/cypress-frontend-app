@@ -6,5 +6,11 @@
         "englishHost": "www.english.io",
         "brandHost": "www.brand.fox-team.io"
     },
-    "integrationFolder": "cypress/integration"
+    "integrationFolder": "cypress/integration",
+    "retries": {
+        "runMode": 4,
+        "openMode": 0
+    },
+    "viewportWidth": 375,
+    "viewportHeight": 1000
 }

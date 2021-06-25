@@ -6,7 +6,7 @@
         "englishHost": "www.english.io",
         "brandHost": "www.brand.dev.io"
     },
-    "baseUrl": "http://www.mybaseurl.dev.io",
+    "baseUrl": "http://localhost:4567/ping",
     "ignoreTestFiles": "*.ignore-this.js",
     "blockHosts": "www.block.this.host.io",
     "userAgent": "this is my useragent string",
