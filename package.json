@@ -1,6 +1,6 @@
 {
     "name": "cypress-frontend-app",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "A frontend test app to use with cypress-server",
     "main": "index.js",
     "scripts": {
@@ -29,9 +29,9 @@
     },
     "homepage": "https://github.com/Qarj/cypress-frontend-app#readme",
     "devDependencies": {
-        "cypress": "^6.4.0"
+        "cypress": "^12.10.0"
     },
     "dependencies": {
-        "cypress-service-client": "0.0.6"
+        "cypress-service-client": "1.2.6"
     }
 }
